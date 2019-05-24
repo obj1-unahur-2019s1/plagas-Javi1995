@@ -1,0 +1,7 @@
+import plagas.*
+
+test "PlagaCucas" {
+	const casaPlagas = new plagas(poblacion = 30, pesoPromedio = 20)
+	
+
+}

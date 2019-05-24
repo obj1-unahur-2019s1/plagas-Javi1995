@@ -1,0 +1,10 @@
+import elementos.*
+
+test "Hogar" {
+	const casitaLinda = new Hogar(nivelMugre = 30, confort = 20)
+	assert.that(casitaLinda.esBueno())
+	//assert.equals(true, casita.esBueno())
+	
+	const castaFea = new Hogar(nivelMugre = 30, confort = 20)
+	assert.notThat(casitaFea.esBuena())
+}
